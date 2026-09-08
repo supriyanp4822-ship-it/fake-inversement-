@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Investment Detection System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .feature {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #007bff;
+            border-radius: 4px;
+        }
+        .feature h3 {
+            margin-top: 0;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Fake Investment Detection System</h1>
+        <p>A comprehensive application for detecting and preventing fraudulent investment schemes.</p>
+        
+        <h2>Key Features</h2>
+        <div class="feature-grid">
+            <div class="feature">
+                <h3>🛡️ Advanced Detection</h3>
+                <p>AI-powered fraud detection algorithm analyzes investment opportunities in real-time.</p>
+            </div>
+            <div class="feature">
+                <h3>📊 Detailed Analysis</h3>
+                <p>Comprehensive reports with fraud scores and risk assessments for each investment.</p>
+            </div>
+            <div class="feature">
+                <h3>⚡ Real-Time Insights</h3>
+                <p>Instant feedback and recommendations to make informed investment decisions.</p>
+            </div>
+        </div>
+
+        <h2>Getting Started</h2>
+        <ol>
+            <li>Install dependencies: <code>npm install</code></li>
+            <li>Configure environment variables (.env files)</li>
+            <li>Start the application: <code>npm run dev</code></li>
+            <li>Navigate to http://localhost:5173</li>
+        </ol>
+
+        <h2>Documentation</h2>
+        <ul>
+            <li><a href="./docs/SETUP.md">Setup Guide</a></li>
+            <li><a href="./docs/API.md">API Documentation</a></li>
+            <li><a href="./docs/ARCHITECTURE.md">Architecture Documentation</a></li>
+        </ul>
+
+        <h2>Technology Stack</h2>
+        <h3>Frontend</h3>
+        <ul>
+            <li>React 18 + TypeScript</li>
+            <li>Vite (build tool)</li>
+            <li>Tailwind CSS (styling)</li>
+            <li>Zustand (state management)</li>
+            <li>Axios (HTTP client)</li>
+        </ul>
+
+        <h3>Backend</h3>
+        <ul>
+            <li>Express.js + TypeScript</li>
+            <li>MongoDB (database)</li>
+            <li>JWT (authentication)</li>
+            <li>Joi (validation)</li>
+        </ul>
+    </div>
+</body>
+</html>
